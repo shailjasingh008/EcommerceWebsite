@@ -1,5 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100&display=swap');
+
 
 * {
     margin: 0;
@@ -74,8 +75,8 @@ p{
 
 
 .img-fluid{
-    width: 100px;
-    height: 40px;
+    width: 187px;
+    height: 70px;
 }
 
 
@@ -96,13 +97,18 @@ p{
 }
 .home .home-banner .home-banner-text{
     position:absolute;
-    top:30%;
-    left:40%;
+    top:50%;
+    left:38%;
     transform:translate(-110%, -50%)
 }
-.home .home-banner .home-banner-text h1{
-    font-size: 3rem;
+.home .home-banner .home-banner-text h1
+{
+    font-family: 'Lobster', cursive;
+     font-size: 60px;
+      font-weight: 500;
 }
+
+
 .home .carousel-indicators [data-bs-target]{
     background-color:var(--bg-danger);
     width:2.5rem;
@@ -551,11 +557,10 @@ p{
          overflow: hidden;
      }
      .home .home-banner .home-banner-text h1{
-         font-size: 2rem;
+         font-size: 40px;
      }
-     .home .home-banner .home-banner-text h3{
-         font-size: 1rem;
-         
+     .home .home-banner .home-banner-text h5{
+         font-size: 15px;
      }
      .home .home-banner .home-banner-text .btn-danger{
          padding:0.5rem 1.5rem;
@@ -595,8 +600,8 @@ p{
 
 @media (max-width:330px){ 
     /* Home CSS */ 
-    .home .home-banner .home-banner-text h2{
-        font-size: 1rem;
+    .home .home-banner .home-banner-text h1{
+        font-size: 100px;
     }
 
     /* Product CSS */ 
